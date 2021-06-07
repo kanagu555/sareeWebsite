@@ -1,0 +1,86 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 60rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vmlogo {
+    width: 75px;
+    height: 75px;
+    display: flex;
+}
+
+.topnav-left,
+.topnav-right,
+.topnav-center {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    justify-items: center;
+}
+
+.topnav-p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomnav-left {
+    display: flex;
+    flex-direction: column;
+}
+
+marquee {
+    background-color: black;
+    color: white;
+}
+
+.imagecontainer {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.imagerow1,
+.imagerow2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gridimages {
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.imagetext {
+    text-align: center;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-evenly;
+}
